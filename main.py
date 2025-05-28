@@ -1,6 +1,7 @@
-import streamlit as st
-st.title('나의 첫 Streamlit 앱')
-st.write('안녕하세요!')
+
+# ✅ set_page_config는 반드시 가장 위에 와야 함!
+st.set_page_config(page_title="데이터 시각화", layout="wide")
+
 
 import streamlit as st
 import pandas as pd
